@@ -1,0 +1,33 @@
+//------ ranking----->
+
+tbody {
+    &.ranking {
+        tr {
+            td {
+                padding: 10px 25px !important;
+                vertical-align: middle !important;
+                .thumbnail {
+                    margin-right: 10px;
+                    border: 2px solid var(--color-border);
+                    transition: var(--transition);
+                    max-width: 60px;
+                    border-radius: 50%;
+                    display: inline-flex;
+                    img {
+                        border-radius: 50%;
+                    }
+                }
+                .ai-execute-button {
+                    border-radius: 0.5rem;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px 30px !important;
+                    text-decoration: none;
+                    span {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
